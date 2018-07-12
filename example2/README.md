@@ -1,5 +1,5 @@
-# cmake_example01
-2 CMakeLists.txt file in root and root/src
+# cmake_example02
+Only 1 CMakeLists.txt file in root/ directory
 
 all source files(*.cpp, *.h) should be placed under root/
 
@@ -18,3 +18,5 @@ run "cmake --build ./" to create executable;
 executable is in "build/bin" directory
 
 By default, CMakeLists.txt in src will include all source files
+
+If you add any new file, you need to rerun cmake ../ to create mk file again

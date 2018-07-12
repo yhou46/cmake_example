@@ -16,3 +16,5 @@ run "cmake --build ./" to create executable;
 executable is in "build/bin" directory
 
 By default, CMakeLists.txt in src will include all source files
+
+If you add any new file, you need to rerun cmake ../ to create mk file again
