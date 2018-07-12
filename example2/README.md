@@ -1,7 +1,9 @@
 # cmake_example01
 2 CMakeLists.txt file in root and root/src
 
-all source files(*.cpp, *.h) should be placed under root/src
+all source files(*.cpp, *.h) should be placed under root/
+
+There is no src folder and we need only one CMakeLists.txt
 
 To create mk file:
 1. in "root/" (in this case, root is example1/ ), run "mkdir ./build"
