@@ -8,6 +8,6 @@ project (cmake_example01)
 add_subdirectory (src)
 #add_subdirectory (unit_test) 
 
-# Set to use C++ 11
-set (CMAKE_CXX_STANDARD 11)
+# Set to use C++ 17
+#set (CMAKE_CXX_STANDARD 17)
 
