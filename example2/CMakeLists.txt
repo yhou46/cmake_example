@@ -4,8 +4,8 @@ cmake_minimum_required(VERSION 3.9)
 # Project name
 project (cmake_example02)
 
-# Set to use C++ 11
-set (CMAKE_CXX_STANDARD 11)
+# Set to use C++ 20
+set (CMAKE_CXX_STANDARD 20)
 
 # Output directories
 ## CMAKE_BINARY_DIR : if you are building in-source, this is the same as CMAKE_SOURCE_DIR, otherwise this is the top level directory of your build tree
